@@ -10,6 +10,6 @@ def gcd(a, b):
 
 
 if __name__ == "__main__":
-    a = int(input())
-    b = int(input())
+    input = sys.stdin.read()
+    a, b = map(int, input.split())
     print(gcd(a, b))

@@ -13,7 +13,7 @@ def lcm(a, b):
     return (a * b)//g
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
+    input = sys.stdin.read()
+    a, b = map(int, input.split())
     print(lcm(a, b))
 
